@@ -1,18 +1,6 @@
-# Bỏ qua thư mục sinh ra lúc build code
-build/
-out/
-.gradle/
+# Bỏ qua tất cả mọi thứ trong thư mục gốc
+/*
 
-# Bỏ qua cấu hình riêng của IntelliJ IDEA
-.idea/
-*.iml
-*.iws
-
-# Bỏ qua các file biên dịch
-*.class
-*.war
-*.ear
-*.jar
-
-# Bỏ qua file log
-*.log
+# Nhưng "quay xe", giữ lại thư mục src và file .gitignore
+!/src/
+!.gitignore
